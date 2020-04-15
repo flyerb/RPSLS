@@ -4,7 +4,15 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Computer
+    class Computer: Player
     {
+        public Computer()
+        {
+        score: 0;
+        }
+
+        //methods
+
+        
     }
 }

@@ -4,7 +4,15 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Human
+    class Human : Player // inheritence  - is a type of
     {
+        public override void ChooseGesture()
+        {
+            Console.WriteLine(" ");
+            string userInput = Console.ReadLine();
+
+
+        }
     }
 }
+
