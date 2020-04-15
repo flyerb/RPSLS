@@ -4,15 +4,26 @@ using System.Text;
 
 namespace RPSLS
 {
-    class Human : Player // inheritence  - is a type of
+    public class Human : Player
     {
+        //variables 
+
+        //ctor
+
         public override void ChooseGesture()
         {
-            Console.WriteLine(" ");
-            string userInput = Console.ReadLine();
-
-
+            string chosenGesture = Console.ReadLine();
+            if (chosenGesture == "0" || chosenGesture == "1" || chosenGesture == "2" || chosenGesture == "3" || chosenGesture == "4")
+            {
+                Console.WriteLine("Great Choice!");
+            }
+            else
+            {
+                Console.WriteLine("You did not enter a valid option.");
+                ChooseGesture();
+            }
         }
     }
 }
+
 

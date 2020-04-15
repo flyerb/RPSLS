@@ -6,6 +6,9 @@ namespace RPSLS
     {
         static void Main(string[] args)
         {
+            Game MyGame = new Game();
+            MyGame.RunGame();
+
            // Run_Game game new game
 
             // 1) Display rules (include how many rounds win?) [m-Game]

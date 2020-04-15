@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\netra\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\netra\\.nuget\\packages"
+    ]
+  }
+}

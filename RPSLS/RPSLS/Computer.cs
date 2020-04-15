@@ -8,11 +8,16 @@ namespace RPSLS
     {
         public Computer()
         {
-        score: 0;
+         //score: 0;
         }
 
         //methods
+        public override void ChooseGesture()
+        {
+            Random rnd = new Random();
+            int computerChoice = rnd.Next(0, 5);
+            Console.WriteLine(computerChoice);
+        }
 
-        
     }
 }

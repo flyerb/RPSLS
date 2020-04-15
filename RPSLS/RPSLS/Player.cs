@@ -11,21 +11,23 @@ namespace RPSLS
 
         // chosing a gesture is something than can do and something they have
 
-        public void ViewGestureOptions(List<string> gestureOptions)
+        public Player()
         {
-            Console.WriteLine("Make your choice from the following options: ");
-
-            for(int i = 0; i < gestureOptions.Count; i++)
-            {
-                Console.WriteLine(gestureOptions[i]);
-            }
+            int score = 0;
         }
+        public void ViewGestureOptions(List<string> nmnhjh)
+        {
+            Console.WriteLine("Please choose a number from the following options: ");
+
+            for(int i = 0; i < nmnhjh.Count; i++)
+            {
+                Console.WriteLine(i + ")" + nmnhjh[i]);
+            }
+        
+                }
 
         //choose gesture option override
         public abstract void ChooseGesture();
-        
-
-        
 
     }
 }

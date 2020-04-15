@@ -1,3 +1,11 @@
 C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\obj\Debug\netcoreapp3.1\RPSLS.csprojAssemblyReference.cache
 C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\obj\Debug\netcoreapp3.1\RPSLS.AssemblyInfoInputs.cache
 C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\obj\Debug\netcoreapp3.1\RPSLS.AssemblyInfo.cs
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\bin\Debug\netcoreapp3.1\RPSLS.exe
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\bin\Debug\netcoreapp3.1\RPSLS.deps.json
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\bin\Debug\netcoreapp3.1\RPSLS.runtimeconfig.json
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\bin\Debug\netcoreapp3.1\RPSLS.runtimeconfig.dev.json
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\bin\Debug\netcoreapp3.1\RPSLS.dll
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\bin\Debug\netcoreapp3.1\RPSLS.pdb
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\obj\Debug\netcoreapp3.1\RPSLS.dll
+C:\Users\netra\Desktop\devCode\Week_02\Projects\RPSLS\RPSLS\RPSLS\obj\Debug\netcoreapp3.1\RPSLS.pdb
