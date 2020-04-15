@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\netra\\source\\repos\\RPSLS\\RPSLS\\RPSLS.csproj",
+      "projectUniqueName": "C:\\Users\\netra\\Desktop\\devCode\\Week_02\\Projects\\RPSLS\\RPSLS\\RPSLS\\RPSLS.csproj",
       "projectName": "RPSLS",
-      "projectPath": "C:\\Users\\netra\\source\\repos\\RPSLS\\RPSLS\\RPSLS.csproj",
+      "projectPath": "C:\\Users\\netra\\Desktop\\devCode\\Week_02\\Projects\\RPSLS\\RPSLS\\RPSLS\\RPSLS.csproj",
       "packagesPath": "C:\\Users\\netra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\netra\\source\\repos\\RPSLS\\RPSLS\\obj\\",
+      "outputPath": "C:\\Users\\netra\\Desktop\\devCode\\Week_02\\Projects\\RPSLS\\RPSLS\\RPSLS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\netra\\AppData\\Roaming\\NuGet\\NuGet.Config",
