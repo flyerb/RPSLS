@@ -20,7 +20,7 @@ namespace RPSLS
             pointsNeededtoWin = 3;
             Player1 = new Human(); // because it will always be a human 
 
-            gestureOptions = new List<string>() { "Rock", "Paper", "Sizssors", "Lizard", "Spock" };
+            gestureOptions = new List<string>() { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
         }
 
         //methods (can do)
@@ -29,15 +29,24 @@ namespace RPSLS
         {
             DisplayRules();
             ChooseGameMode();
-            Player1.ViewGestureOptions(gestureOptions); // bbecause there are 2 instances of this class // have to pass in a list of gestures- which was declared as a variable above 
-            Player1.ChooseGesture();
-            Player2.ViewGestureOptions(gestureOptions);
-            Player2.ChooseGesture();
-
-            
-            //compare choices 
-            // tally score
-            //display winner
+             // bbecause there are 2 instances of this class // have to pass in a list of gestures- which was declared as a variable above 
+          
+            while(Player1.score < pointsNeededtoWin && Player2.score < pointsNeededtoWin)
+            {
+                Player1.ViewGestureOptions(gestureOptions);
+                Player1.ChooseGesture();
+                Player2.ViewGestureOptions(gestureOptions);
+                Player2.ChooseGesture();
+                AssignPoint();
+            }
+            if(Player1.score == pointsNeededtoWin)
+            {
+                Console.WriteLine("Player One Won!");
+            }
+            else if (Player2.score == pointsNeededtoWin)
+            {
+                Console.WriteLine("Player Two Won!");
+            }
         }
 
         public void DisplayRules()
@@ -69,49 +78,70 @@ namespace RPSLS
         {
             if (Player1.chosenGesture == Player2.chosenGesture)
             {
-                Console.WriteLine("Tie!");
+                Console.WriteLine("It's a Tie!\n");
 
             }
-            else if ((Player1.chosenGesture == "0" && Player2.chosenGesture == "3") || (Player1.chosenGesture == "0" && Player2.chosenGesture == "2"))
+            if ((Player1.chosenGesture == "0" && Player2.chosenGesture == "3") || (Player1.chosenGesture == "0" && Player2.chosenGesture == "2"))
             {
                 Player1.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
+
             }
             else if ((Player1.chosenGesture == "" && Player2.chosenGesture == "0") || (Player1.chosenGesture == "1" && Player2.chosenGesture == "4"))
             {
                 Player1.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
             else if ((Player1.chosenGesture == "2" && Player2.chosenGesture == "1") || (Player1.chosenGesture == "2" && Player2.chosenGesture == "3"))
             {
                 Player1.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
 
             }
             else if ((Player1.chosenGesture == "3" && Player2.chosenGesture == "4") || (Player1.chosenGesture == "3" && Player2.chosenGesture == "1"))
             {
                 Player1.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
             else if ((Player1.chosenGesture == "4" && Player2.chosenGesture == "4") || (Player1.chosenGesture == "2" && Player2.chosenGesture == "0"))
             {
                 Player1.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
             else if ((Player2.chosenGesture == "0" && Player1.chosenGesture == "3") || (Player2.chosenGesture == "0" && Player1.chosenGesture == "2"))
             {
                 Player2.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
             else if ((Player2.chosenGesture == "1" && Player1.chosenGesture == "0") || (Player2.chosenGesture == "1" && Player1.chosenGesture == "4"))
             {
                 Player2.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
             else if ((Player2.chosenGesture == "2" && Player1.chosenGesture == "1") || (Player2.chosenGesture == "2" && Player1.chosenGesture == "3"))
             {
                 Player2.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
             else if ((Player2.chosenGesture == "3" && Player1.chosenGesture == "4") || (Player2.chosenGesture == "3" && Player1.chosenGesture == "1"))
             {
                 Player2.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
             else if ((Player2.chosenGesture == "4" && Player1.chosenGesture == "2") || (Player2.chosenGesture == "4" && Player1.chosenGesture == "0"))
             {
                 Player2.score++;
+                Console.WriteLine("Player One, your score is: " + Player1.score);
+                Console.WriteLine("Player Two, your score is: " + Player2.score + "\n");
             }
         }
 

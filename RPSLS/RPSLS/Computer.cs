@@ -15,8 +15,8 @@ namespace RPSLS
         public override void ChooseGesture()
         {
             Random rnd = new Random();
-            int computerChoice = rnd.Next(0, 5);
-            Console.WriteLine(computerChoice);
+            chosenGesture = rnd.Next(0, 5).ToString();
+            Console.WriteLine("Computer chooses " + chosenGesture + "\n");
         }
 
     }
